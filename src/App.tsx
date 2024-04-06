@@ -11,6 +11,15 @@ export default function App() {
         <Route path="/" element={<Biodata />} />
         <Route path="/biodata_update" element={<BiodataUpdate />} />
         <Route path="/profiling" element={<Profiling />} />
+        <Route path="/profiling2" element={<Profiling />} />
+        <Route path="/profiling3" element={<Profiling />} />
+        <Route path="/profiling4" element={<Profiling />} />
+        <Route path="/profiling5" element={<Profiling />} />
+        <Route path="/profiling6" element={<Profiling />} />
+        <Route path="/profiling7" element={<Profiling />} />
+        <Route path="/profiling8" element={<Profiling />} />
+        <Route path="/profiling9" element={<Profiling />} />
+        <Route path="/profiling10" element={<Profiling />} />
         <Route path="/submitted" element={<Submitted />} />
       </Routes>
     </>

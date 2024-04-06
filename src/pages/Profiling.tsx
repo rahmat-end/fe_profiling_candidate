@@ -104,7 +104,7 @@ export default function Profiling() {
                     duration: 3000,
                     isClosable: true,
                 })
-                navigate('/profiling')
+                navigate(`/profiling${answer + 1}`)
                 window.location.reload()
             } else if (answer === 9) {
                 await API.post('/addProfiling', form)
