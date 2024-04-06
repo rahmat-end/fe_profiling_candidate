@@ -8,7 +8,7 @@ export default function App() {
   return (
     <>
       <Routes>
-        <Route path="/biodata" element={<Biodata />} />
+        <Route path="/" element={<Biodata />} />
         <Route path="/biodata_update" element={<BiodataUpdate />} />
         <Route path="/profiling" element={<Profiling />} />
         <Route path="/submitted" element={<Submitted />} />
