@@ -105,7 +105,7 @@ export default function Profiling() {
                     isClosable: true,
                 })
                 navigate(`/profiling${answer + 1}`)
-                window.location.reload()
+                // window.location.reload()
             } else if (answer === 9) {
                 await API.post('/addProfiling', form)
                 navigate('/biodata_update')
